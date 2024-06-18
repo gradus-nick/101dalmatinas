@@ -142,3 +142,37 @@ INFO:root:{"datetime": "18.06.2024-08:03:07", "filename": "image0019.jpg"}
 INFO:root:{'datetime': '18.06.2024-08:03:08', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}, {"type": "EAN13", "data": "2107047307968", "orientation": "UP"}, {"type": "EAN13", "data": "2101041307962", "orientation": "UP"}]'}
 INFO:root:{"datetime": "18.06.2024-08:05:32", "filename": "image0019.jpg"}
 INFO:root:{'datetime': '18.06.2024-08:06:53', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}, {"type": "EAN13", "data": "2107047307968", "orientation": "UP"}, {"type": "EAN13", "data": "2101041307962", "orientation": "UP"}]'}
+INFO:uvicorn.error:Started server process [5216]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+INFO:root:{"datetime": "18.06.2024-08:27:26", "filename": "image0018.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:27:37', 'res': '[{"type": "EAN13", "data": "2101041307436", "orientation": "UP"}]'}
+INFO:root:{"datetime": "18.06.2024-08:28:02", "filename": "image0019.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:28:02', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}, {"type": "EAN13", "data": "2107047307968", "orientation": "UP"}, {"type": "EAN13", "data": "2101041307962", "orientation": "UP"}]'}
+INFO:root:{"datetime": "18.06.2024-08:28:12", "filename": "image0018.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:28:12', 'res': '[{"type": "EAN13", "data": "2101041307436", "orientation": "UP"}]'}
+INFO:root:{"datetime": "18.06.2024-08:28:28", "filename": "image0013.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:28:28', 'res': '[{"type": "CODE128", "data": "0000093519", "orientation": "RIGHT"}, {"type": "EAN13", "data": "2101041307306", "orientation": "UP"}]'}
+INFO:root:{"datetime": "18.06.2024-08:29:01", "filename": "image0012.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:30:48', 'res': '[{"type": "EAN13", "data": "2101041307788", "orientation": "UP"}]'}
+INFO:uvicorn.error:Started server process [12940]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+INFO:root:{"datetime": "18.06.2024-08:31:15", "filename": "image0019.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:31:16', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}]'}
+INFO:uvicorn.error:Started server process [11100]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+INFO:root:{"datetime": "18.06.2024-08:32:13", "filename": "image0019.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:32:27', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}]'}
+INFO:uvicorn.error:Started server process [14712]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Uvicorn running on http://0.0.0.0:9090 (Press CTRL+C to quit)
+INFO:root:{"datetime": "18.06.2024-08:33:17", "filename": "image0019.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:33:18', 'res': '[{"type": "CODE128", "data": "0000093455", "orientation": "RIGHT"}, {"type": "EAN13", "data": "2101041307962", "orientation": "UP"}]'}
+INFO:root:{"datetime": "18.06.2024-08:33:28", "filename": "image0018.jpg"}
+INFO:root:{'datetime': '18.06.2024-08:33:28', 'res': '[{"type": "EAN13", "data": "2101041307436", "orientation": "UP"}]'}

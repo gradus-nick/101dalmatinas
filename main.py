@@ -25,8 +25,5 @@ async def upload_file(file: UploadFile = File()):
 if __name__ == "__main__":
     config = configparser.ConfigParser()
     logging.basicConfig(level=logging.INFO, filename="101.log")
-#    config.read('/home/artur/101dalmatinas/config.ini')
-#    conf_host = config['UVICORN']['host']
-#    conf_port = int(config['UVICORN']['port'])
-#    uvicorn.run(app, host=conf_host, port=conf_port)
+
 uvicorn.run(app, host='0.0.0.0', port=9090)
