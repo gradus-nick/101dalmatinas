@@ -22,10 +22,10 @@ def decode(image):
         
         if type == 'EAN13':
             barcode_str = data[0:4]
-            if barcode_str == '2101':
-                barcode_valid = True
-            else:
+            if barcode_str == '2107':
                 barcode_valid = False
+            else:
+                barcode_valid = True
 
         if barcode_valid:
             mBarcode.append(result)
