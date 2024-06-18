@@ -3,6 +3,7 @@ import cv2
 import tempfile
 import numpy as np
 import os
+import barcodenumber
 
 def decode(image):
     # расшифровываем все штрихкоды которые нашли
@@ -13,9 +14,17 @@ def decode(image):
         type = obj.type
         data = obj.data.decode('UTF-8')
         orientation = obj.orientation
-
+        
         result = {'type':type, 'data':data, 'orientation':orientation}
-        mBarcode.append(result)
+        
+        #проверка валидности
+        barcode_valid = True
+        
+        if type == 'EAN13':
+            barcode_valid = barcodenumber.check_code(type, data)
+
+        if barcode_valid:
+            mBarcode.append(result)
 
     return mBarcode
 
